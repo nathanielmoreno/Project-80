@@ -1,0 +1,120 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+
+.Escanor {
+    display: none;
+}
+
+.Mikasa {
+    display: none;
+}
+
+.Yuji {
+    display: none;
+}
+
+.Miruko {
+    display: none;
+}
+
+@keyframes body {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+body {
+    background-color: blue;
+    animation-name: body;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+@keyframes submit {
+    14.29% {
+        background-color: violet;
+    }
+
+    28.58% {
+        background-color: indigo;
+    }
+
+    42.87% {
+        background-color: blue;
+    }
+
+    57.26% {
+        background-color: green;
+    }
+    
+    71.45% {
+        background-color: yellow;
+    }
+
+    85.74% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.Submit {
+    background-color: red;
+    animation-name: submit;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes reset {
+    14.29% {
+        background-color: violet;
+    }
+
+    28.58% {
+        background-color: indigo;
+    }
+
+    42.87% {
+        background-color: blue;
+    }
+
+    57.26% {
+        background-color: green;
+    }
+    
+    71.45% {
+        background-color: yellow;
+    }
+
+    85.74% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.Reset {
+    background-color: red;
+    animation-name: reset;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
